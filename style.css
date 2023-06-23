@@ -16,14 +16,14 @@
   .main_container{
      max-width: 1440px;
      background: linear-gradient(to right, #f7efee 33%, #efede3 66%, #f7f8eb 100%);
-     margin: 0, auto;
+    
   }
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 106px;
   }
+  
   nav ul {
     display: flex;
     gap: 40px;
@@ -55,7 +55,7 @@ border: none;
     color: #141414;
     font-family: 'Gilroy-Bold';
     text-align: center;
-    margin: 150px;
+    margin: 106px;
 
 }
 .hero_section h1 {
@@ -66,14 +66,41 @@ line-height: 96px;
 font-family: 'Gilroy-Medium';
 font-size: 18px;
 line-height: 28px;
-padding-left: 100px;
-padding-right: 100px;
+padding:0px 160px;
 }
-  
+ 
+ 
   
   strong {
     color: #005AE2
   }
+  .cta {
+    margin-top: 38px;
+    align-items: normal;
+  }
+.cta a {
+    padding-left: 52px;
+}
+.wrapper {
+    padding: 40px 60px;
+    border-radius: 24px;
+    border: 0.5px solid var(--primary-400, #005AE2);
+    background:#FEFEFE1A 10%;
+    backdrop-filter: blur(106px);
+    margin: 0px 248px 60px 350px;
+}
+.wrapper p {
+  text-align: center;
+}
+.possibilities{
+  display: flex;
+  
+}
+aside .group {
+  display: flex;
+}
+
+
   
   /*.intro {
     padding: 96px 0 64px 0;
